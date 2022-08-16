@@ -1,0 +1,29 @@
+{
+  "name": "@emsquared/otto_display",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.min.js",
+  "source": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle build --raw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockyEMSqr/otto_display.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockyEMSqr/otto_display/issues"
+  },
+  "homepage": "https://github.com/RockyEMSqr/otto_display#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "preact": "^10.10.2"
+  }
+}
