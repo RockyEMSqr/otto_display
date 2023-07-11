@@ -17,7 +17,9 @@ function getDT(val) {
 
 }
 function formatPhoneNumber(s) {
-    console.info('handle formatting beetter.')
+    // todo: handle formatting better.
+    // I forgoet the case but i think it is when you try and format when you don't have enough characters
+    // console.info('handle formatting beetter.')
     var s2 = ("" + s).replace(/\D/g, '');
     var m = s2.match(/^(\d{3})(\d{3})(\d{4})$/);
     return (!m) ? null : "(" + m[1] + ") " + m[2] + "-" + m[3];
